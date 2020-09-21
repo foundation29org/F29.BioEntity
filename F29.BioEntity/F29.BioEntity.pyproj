@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>F29.BioEntity</Name>
     <RootNamespace>F29.BioEntity</RootNamespace>
+    <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -58,6 +59,9 @@
     <Folder Include="WebAPI\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".dockerignore" />
+    <Content Include="BuildRun.txt" />
+    <Content Include="Dockerfile" />
     <Content Include="requirements.txt" />
     <Content Include="_files\README.txt" />
     <Content Include="_tests_assets\README.txt" />

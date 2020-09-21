@@ -1,0 +1,16 @@
+Stats.py
+RunTests.py
+Obsoletes.py
+
+**/_files
+**/_tests_assets
+**/_tests_mismatch
+**/BioEntityTests
+
+**/__pycache__
+**/*.txt
+!requirements.txt
+.git
+*.md
+*.pyproj
+*.user
