@@ -2,15 +2,22 @@ Stats.py
 RunTests.py
 Obsoletes.py
 
-**/_files
-**/_tests_assets
-**/_tests_mismatch
-**/BioEntityTests
+_cache
+_files
+_tests_assets
+_tests_mismatch
+BioEntityTests
 
 **/__pycache__
 **/*.txt
-!requirements.txt
 .git
 *.md
 *.pyproj
 *.user
+
+!requirements.txt
+!_cache/biophens-en.pkl
+!_cache/biophens-es.pkl
+!_cache/mondo-en.gfx
+!_files/gene_disease.9606.tsv
+

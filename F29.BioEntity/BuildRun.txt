@@ -2,4 +2,4 @@
 docker build -t f29-bio:latest .
 
 # Run Docker Container
-docker run --memory=2G --rm -p 8080:8080 f29-bio:latest
+docker run --rm -p 8080:8080 f29-bio:latest
