@@ -1,4 +1,6 @@
 # F29 BioEntity
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
+
 General utilities to work with HPO and MONDO ontologies including disease, phenotype and gene annotations.
 
 ## BioGenes Methods
